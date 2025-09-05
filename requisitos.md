@@ -7,4 +7,4 @@ El sistema debe permitir el acceso a notificaciones, asi permitir al usuario sab
 
 No funcional:
 
-El sistema tiene que ser usado en una red internet estable para que no ocurran problemas en la comparticion de datos con el/los recolestor/es.
+El sistema funciona solo con una red de internet estable.
