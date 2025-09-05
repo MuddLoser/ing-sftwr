@@ -1,5 +1,3 @@
-wip
-
 Vision del problema:
 
 No hay protocolo moderno para organizar las solicitudes para recoleccion de material reciclable. Se pierden solicitudes, las rutas de recoleccion no son optimas y en general todo el proceso resulta confuso por el uso de metodos arcaícos.
