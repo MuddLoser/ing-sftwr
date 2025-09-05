@@ -1,5 +1,3 @@
-wip
-
 Funcional:
 
 - El Sistema debe ser capaz de recibir un Pedido de Recolección, teniendo una interfaz para cliente, recolector y jefe de zona. 
