@@ -1,8 +1,12 @@
 Funcional:
 
-- El Sistema debe ser capaz de recibir un Pedido de Recolección, teniendo una interfaz para cliente, recolector y jefe de zona. 
-- Debe permitir al usuario entregar sus datos, generar una ruta eficiente para recoger los materiales según esos datos, y poder finalizar la recolección con un comprobante para el usuario-
-- El sistema debe permitir el acceso a notificaciones, asi permitir al usuario saber la llegada de los recolectores y coordinar la entrega del material.
+- El sistema debe ser capaz de recibir un Pedido de Recolección, teniendo una interfaz para cliente, recolector y jefe de zona. 
+- El sistema debe permitir al usuario entregar sus datos.
+- El sistema debe permitir generar una ruta eficiente para recoger los materiales según los datos del usuario.
+- El sistema debe permitir finalizar la recolección con un comprobante para el usuario.
+- El sistema debe permitir el acceso a notificaciones.
+- El sistema debe permitir al usuario saber la llegada de los recolectores.
+- El sistema debe permitir coordinar la entrega del material.
 
 
 
