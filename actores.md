@@ -1,5 +1,5 @@
--Cliente: Es el que solicita el pedido de recoleccion.
--Recolector: Va a buscar los materiales del solicitante.
+- Cliente: Es el que solicita el pedido de recoleccion.
+- Recolector: Va a buscar los materiales del solicitante.
 - Jefe de zona: Encargado de la logistica para las rutas de recoleccion y es el encargado de ver si hubo algun reporte de problema durante el pedido.
 
 
