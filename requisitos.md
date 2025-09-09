@@ -7,6 +7,7 @@ Funcional:
 - El sistema debe permitir el acceso a notificaciones.
 - El sistema debe permitir al usuario saber la llegada de los recolectores.
 - El sistema debe permitir coordinar la entrega del material.
+- El sistema debe validar la ubicación.
 
 
 
