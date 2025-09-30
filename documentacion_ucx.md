@@ -16,8 +16,7 @@ Escenario principal de exito: //pasos poscondicion
     2. El cliente entrega sus datos
     3. El cliente entrega su ubicacion
     4. El caso de uso: Validar ubicación. Valida correctamente la ubicación del cliente
-    5. Se envía la notificación al sistema sobre el pedido
-    6. Se registra un pedido en el sistema
+    5. Se registra un pedido en el sistema
 
 Extensiones (Flujos Alternativos):
 
@@ -46,7 +45,6 @@ Postcondiciones: El punto de recolección es valido para el sistema y se buscara
 Escenario principal de exito:
 
     1. El sistema geolocalizador valida correctamente la ubicación del cliente
-    2. Se prepara la notificación sobre el estado del pedido
 
 Extensiones (Flujos Alternativos):
 
