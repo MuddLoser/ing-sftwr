@@ -11,6 +11,7 @@ Precondiciones: Ninguna
 Postcondiciones: Se registra un pedido en el sistema
 
 Escenario principal de exito: //pasos poscondicion
+
     1. El cliente realiza el pedido 
     2. El cliente entrega sus datos
     3. El cliente entrega su ubicacion
@@ -19,6 +20,7 @@ Escenario principal de exito: //pasos poscondicion
     6. Se registra un pedido en el sistema
 
 Extensiones (Flujos Alternativos):
+
     Paso 2 - Faltan datos
     - Se pide realizar el pedido de nuevo
     Paso 3 - Falta la ubicacion
@@ -42,10 +44,12 @@ Precondiciones: Ninguna
 Postcondiciones: El punto de recolección es valido para el sistema y se buscara el reciclaje en esa ubicación
 
 Escenario principal de exito:
+
     1. El sistema geolocalizador valida correctamente la ubicación del cliente
     2. Se prepara la notificación sobre el estado del pedido
 
 Extensiones (Flujos Alternativos):
+
     Paso 1 - No es valida la ubicación
     - Se pide una nueva ubicación
     Paso 1' - No se valida correctamente la ubicaión
