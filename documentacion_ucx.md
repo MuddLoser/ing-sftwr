@@ -52,6 +52,4 @@ Extensiones (Flujos Alternativos):
     - Se pide una nueva ubicación
     Paso 1' - No se valida correctamente la ubicaión
     - Se cancela el pedido
-    Paso 2 - La notificación no se manda
-    - Se actualiza el estado de la ubicación y se manda otra notificación
 
