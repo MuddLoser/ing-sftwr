@@ -14,4 +14,4 @@
 
 8- la ubicacion tiene que volverse a ingresar en el sistema si no era valida (representada en el loop)
 
-9- el pedido es exitoso si todo es correcto
+9- el pedido es exitoso si el cliente entrega todo los datos de ubicacion correctamente y son validados por el sistema de geolocalizacion
