@@ -1,0 +1,3 @@
+- Cambiar sistema geoloc. a cuadrado y no personita
+- Cambiar "registro en sistema" a "pedido ingresado" o similar
+- Condicion del loop en corchetes []
