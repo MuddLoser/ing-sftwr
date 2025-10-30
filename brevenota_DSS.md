@@ -10,7 +10,7 @@
 
 6- el sistema valida ubicacion con el sistema de geolocalizacion
 
-7- la ubicacion es valida si todo es correcto
+7- la ubicación se valida dándole una revision
 
 8- la ubicacion tiene que volverse a ingresar en el sistema si no era valida (representada en el loop)
 
