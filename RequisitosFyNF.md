@@ -28,6 +28,7 @@ RF7- El sistema debe mandar una notificacion cuando un pedido sea aceptado.
 
 RF7.1- El sistema debe mandar notificacion por retrasos o cancelaciones segun sea necesario.
 
+RF8- El sistema debe permitir coordinar entrega entre el cliente y el jefe de zona, gracias a una hora acordada.
 
 Requisitos no funcionales
 
@@ -42,4 +43,5 @@ RNF4- El sistema debe ser accesible desde computadoras.
 RNF5- El sistema debe funcionar desde navegadores modernos.
 
 RNF6- El sistema debe permitir la actualizacion sgun sea necesaria sin afectar la operacion diaria.
+
 
