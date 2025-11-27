@@ -15,8 +15,9 @@ Escenario principal de exito: //pasos poscondicion
     1. El cliente realiza el pedido 
     2. El cliente entrega sus datos
     3. El cliente entrega su ubicacion
-    4. El caso de uso: Validar ubicación. Valida correctamente la ubicación del cliente
-    5. Se registra un pedido en el sistema
+    4. Se realiza el caso de uso ingresar ubicación: Se ingresa ubicación antes de continuar
+    5. El caso de uso: Validar ubicación. Valida correctamente la ubicación del cliente
+    6. Se registra un pedido en el sistema
 
 Extensiones (Flujos Alternativos):
 
