@@ -1,47 +1,84 @@
 Requisitos funcionales
 
-RF1- El sistema debe permitir el registro de usuarios de tipo Cliente solicitando: nombre, teléfono, correo, dirección.
+RF1 – Registro y autenticación de cliente
 
-RF1.1- El sistema debe permitir el ingreso de nueva direccion o ubicacion.
+RF1.1 El sistema debe permitir el registro de un usuario tipo Cliente, solicitando: nombre, teléfono, correo y dirección.
 
-RF1.2- El sistema debe permitir el reingreso a la cuenta gracias a validacion de mensaje por correo.
+RF1.2 El sistema debe permitir el ingreso manual de una nueva dirección o ubicación.
 
-RF2- El sistema debe permitir una descripcion del pedido que contenga: el tipo de material, cantidad estimada y hora de reciclaje.
+RF1.3 El sistema debe permitir el reingreso a la cuenta mediante validación por mensaje enviado al correo electrónico del cliente.
 
-RF2.1- El sistema debe permitir al cliente cancelar el pedido.
+RF2 – Gestión de pedidos
 
-RF1.3- El sistema debe permitir al cliente ingresar su direccion manualmente.
+RF2.1 El sistema debe permitir al cliente realizar un pedido indicando: tipo de material, cantidad estimada y hora preferida de reciclaje.
 
-RF3- El sistema debe validar ubicacion dada por el cliente.
+RF2.2 El sistema debe permitir al cliente cancelar un pedido antes de que sea asignado a un recolector.
 
-RF3.1- El sistema debe permitir reingresar la ubicacion si no es valida.
+RF3 – Validación de ubicación
 
-RF4- El sistema debe dar aviso a jefe de zona si un pedido es cancelado.
+RF3.1 El sistema debe validar la ubicación ingresada por el cliente mediante un servicio externo de geolocalización.
 
-RF5- El sistema debe permitir al recolector dar aviso de llegada al destino.
+RF3.2 El sistema debe permitir al cliente reingresar una ubicación cuando esta sea inválida.
 
-RF6- El sistema debe permitir entregar un recibo/comprobante digital para el cliente.
+RF4 – Gestión de rutas por zona
 
-RF6.1- El sistema debe permitir descargar el recibo/comprobante digital.
+RF4.1 El sistema debe agrupar automáticamente los pedidos correspondientes a una misma zona administrada por un jefe de zona.
 
-RF7- El sistema debe mandar una notificacion cuando un pedido sea aceptado.
+RF4.2 El sistema debe generar una ruta óptima para los pedidos asociados a esa zona.
 
-RF7.1- El sistema debe mandar notificacion por retrasos o cancelaciones segun sea necesario.
+RF4.3 El sistema debe notificar al jefe de zona cuando un pedido sea cancelado, con el fin de actualizar o recalcular la ruta.
 
-RF8- El sistema debe permitir coordinar entrega entre el cliente y el jefe de zona, gracias a una hora acordada.
+RF5 – Interacción del recolector
+
+RF5.1 El sistema debe permitir al recolector indicar su llegada al destino del cliente durante la ruta asignada.
+
+RF6 – Comprobantes
+
+RF6.1 El sistema debe generar un comprobante digital una vez finalizada la recolección.
+
+RF6.2 El sistema debe permitir al cliente descargar el comprobante digital.
+
+RF7 – Notificaciones
+
+RF7.1 El sistema debe enviar una notificación al cliente cuando el pedido esté aceptado o asignado.
+
+RF7.2 El sistema debe enviar una notificación cuando existan retrasos o cancelaciones asociadas al pedido.
+
+RF8 – Coordinación de entrega
+
+RF8.1 El sistema debe permitir coordinar la entrega entre el cliente y el jefe de zona mediante una hora agendada o acordada.
 
 Requisitos no funcionales
 
-RNF1- El sistema debe funcionar con una red de internet estable.
+RNF1 – Conectividad
 
-RNF2- El sistema debe garantizar los datos de los clientes.
+RNF1.1 El sistema debe funcionar únicamente con una conexión estable a Internet para registrar pedidos, validarlos y generar rutas.
 
-RNF3- El sistema debe estar disponible en horas de oficina para organizar un pedido.
+RNF1.2 El sistema debe tolerar breves interrupciones de conexión y reintentar la sincronización automáticamente al restablecerse la red.
 
-RNF4- El sistema debe ser accesible desde computadoras.
+RNF2 – Seguridad
 
-RNF5- El sistema debe funcionar desde navegadores modernos.
+RNF2.1 El sistema debe garantizar la confidencialidad de los datos de los clientes mediante cifrado de información.
 
-RNF6- El sistema debe permitir la actualizacion sgun sea necesaria sin afectar la operacion diaria.
+RNF2.2 El sistema debe restringir los accesos según el rol del usuario (Cliente, Recolector, Jefe de Zona).
+
+RNF3 – Disponibilidad
+
+RNF3.1 El sistema debe estar disponible durante el horario de oficina para permitir el registro y organización de pedidos.
+
+RNF4 – Usabilidad
+
+RNF4.1 El sistema debe ser accesible desde computadoras sin necesidad de instalar aplicaciones adicionales.
+
+RNF5 – Compatibilidad
+
+RNF5.1 El sistema debe ser compatible con navegadores modernos como Google Chrome, Mozilla Firefox y Microsoft Edge.
+
+RNF5.2 La interfaz debe adaptarse correctamente a distintos tamaños de pantalla.
+
+RNF6 – Mantenibilidad
+
+RNF6.1 El sistema debe permitir la actualización de funcionalidades sin interrumpir su operación diaria.
+
 
 
