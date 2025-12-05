@@ -1,6 +1,12 @@
 Explicando de manera breve:
-- Pedido tiene que tener un cliente relacionado si o si, entonces se usa composicion
-- Pedido requiere de ruta pero son independiente uno del otro, agregacion.
-- El jefe de zona y el reciclador coordinan el material, lo mismo cliente y jefe de zona y ruta y jefe de zona  generan una ruta eficiente, usan agregacion pues todos pueden coexistir independientes de otros.
-- La ubicacion requiere de validacion de parte de ruta, por tanto se necesita usar composicion
-- El reciclador requiere de una ruta pero son independientes uno del otro, agregacion.
+- Los tres tipos de usuarios heredan de Usuario porque comparten datos básicos (nombre, teléfono, correo), pero cumplen roles distintos en el sistema.
+- El Cliente puede crear muchos Pedidos. Cada Pedido pertenece solo a un Cliente.
+- Cada Pedido tiene exactamente una Ubicación ingresada por el cliente. La ubicación se usa para validar el lugar de recolección.
+- Cada Ubicación pertenece obligatoriamente a una Zona. La Zona contiene sus Ubicaciones: si una Zona se elimina, sus ubicaciones también.
+- Cada Zona puede generar múltiples Rutas. Las rutas agrupan pedidos dentro de esa zona.
+- Una Ruta agrupa varios Pedidos para formar un recorrido óptimo. Los pedidos existen independientemente, por eso la relación es agregación y no composición.
+- Un Recolector ejecuta varias Rutas. Cada Ruta es asignada a un Recolector.
+- Un JefeDeZona administra varias Zonas. Cada Zona tiene un único jefe responsable.
+- El JefeDeZona supervisa a los Recolectores que trabajan en sus zonas.
+- Un Pedido puede generar varias Notificaciones para informar cambios de estado, retrasos, llegada del recolector, etc.
+- El Comprobante se genera al finalizar la recolección. No existe sin el Pedido, por eso es composición.
